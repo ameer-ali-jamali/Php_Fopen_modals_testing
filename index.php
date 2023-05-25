@@ -19,17 +19,17 @@
     // fclose($file);
     // echo $getData;
 
+    // $fileName = "order.txt";
+    // $file = fopen($fileName, 'r');
+    // while ($getData = fgets($file)) {
+    //     echo $getData;
+    // }
 
-
-    $fileName = "order.txt";
-    $file = fopen($fileName, 'r');
-    $getData = fgets($file);
-    // fclose($file);
-    while ($getData = fgets($file)) {
-        echo $getData;
-    }
-
-
+    //  $fileName = "order.txt";
+    // $file = fopen($fileName, 'r');
+    // while ($getData = fgetc($file)) {
+    //     echo $getData;
+    // }
 
     // $new = "this is dumy data for testing";
     // $fwrite = fwrite($file, $new,filesize($fileName));
