@@ -11,9 +11,9 @@
 <body>
 
     <?php
-    fopen('order.txt', 'r');
 
-
+    $getData = file_get_contents('order.txt', 'w');
+    echo $getData;
     ?>
 </body>
 
