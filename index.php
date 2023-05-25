@@ -13,9 +13,24 @@
         <?php
     // $getData = file_get_contents('order.txt');
 
+
     // $fileName = "order.txt";
     // $file = fopen($fileName, 'r');
     // $getData = fread($file, filesize($fileName));
+    // fclose($file);
+    // echo $getData;
+
+    // $modifyTxt = "Modifed Text for testing hello world";
+    // $fileName = "testing1.txt";
+    // $file = fopen($fileName, 'r+');
+    // $getData = fwrite($file, $modifyTxt);
+    // fclose($file);
+    // echo $getData;
+
+    // $modifyTxt = "Modifed Text for testing hello world";
+    // $fileName = "testing1.txt";
+    // $file = fopen($fileName, 'w+');
+    // $getData = fwrite($file, $modifyTxt);
     // fclose($file);
     // echo $getData;
 
@@ -30,6 +45,8 @@
     // while ($getData = fgetc($file)) {
     //     echo $getData;
     // }
+
+
 
     // $new = "this is dumy data for testing";
     // $fwrite = fwrite($file, $new,filesize($fileName));
