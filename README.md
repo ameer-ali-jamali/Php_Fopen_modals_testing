@@ -1,1 +1,1 @@
-# its just for prcticing something for restApi
+# Its just for practicing something for restApi
